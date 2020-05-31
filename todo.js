@@ -28,12 +28,13 @@ function paintToDo(text) {
   const span = document.createElement("span");
   const newId = toDos.length + 1;
 
-  delBtn.src = "cross_icon.png";
+  delBtn.src = "image/cross_icon.png";
   delBtn.classList.add(BTN_CL);
   delBtn.addEventListener("click", deleteToDo);
 
   span.innerText = text;
   li.style.marginBottom = "10px";
+  li.autofocus;
   li.appendChild(span);
   li.appendChild(delBtn);
   li.id = newId;
