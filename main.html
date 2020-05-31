@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Momentum Clone
+    </title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="js-firstPage">
+      <h1 class="js-main">Hello, what's your name?</h1>
+
+      <form class="js-firstForm" align="center">
+        <input class="js-name" type="text" autofocus />
+      </form>
+    </div>
+
+    <div class="js-secondPage hide">
+      <h1 class="js-clock"></h1>
+      <h2 class="js-greeting"></h2>
+
+      <form class="js-secondForm">
+        <h2>What is your main focus for today?</h2>
+        <input class="js-todo" type="text" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+
+    <span class="js-weather hide"></span>
+
+    <script src="clock.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+    <script src="welcome.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
